@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>DataVis - Assignment 2</title>
-    
+
     <!-- Loading d3js version 5-->
     <script src="d3.v5.min.js"></script>
-  
-    
+
+
     <!-- Loading style.css; use if needed -->
     <link rel="stylesheet" href="style.css">
 
@@ -15,11 +16,27 @@
 
 <body>
 
-<!-- YOUR SOLUTION GOES HERE-->
-<svg id="myPlot" style="width:1000px;height:1000px; margin-left: 10px;"></svg>
+    <!-- YOUR SOLUTION GOES HERE-->
+    <svg id="myPlot" style="width:1200px;height:1000px; margin-left: 0px;"></svg>
+<div id="carTooltip" 
+     style="
+       position: absolute; 
+       top: 0; 
+       left: 0; 
+       padding: 6px; 
+       background: white; 
+       border: 1px solid #bbb; 
+       border-radius: 4px;
+       font-size: 12px;
+       box-shadow: 0 0 6px rgba(0,0,0,0.2);
+       pointer-events: none;
+       display: none;
+     ">
+</div>
 
-<!-- loading the main javascript file; implement logic there -->
-<script src="main.js"></script>
+    <!-- loading the main javascript file; implement logic there -->
+    <script src="main.js"></script>
 
 </body>
+
 </html>
